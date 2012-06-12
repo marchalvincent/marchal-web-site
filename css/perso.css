@@ -27,3 +27,19 @@ body {
 .competences b {
 	font-size: 16px;
 }
+
+.experience {
+	background-color: #EEEEEE;
+    border-radius: 6px 6px 6px 6px;
+    border:1px solid #BBBBBB;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.experience strong {
+	font-size: 15px;
+}
+
+.experience dl {
+	margin-bottom: 0px;
+}
