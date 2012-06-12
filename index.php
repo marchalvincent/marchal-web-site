@@ -62,18 +62,17 @@
 				</div>
 				
 				<div class="row-fluid">
-				<div class="span6">
-					<?php include 'include/formation.html'; ?>
-				</div>
-				<div class="span6 hero-unit">
-					<?php include 'include/competences.html'; ?>
-				</div>
+					<div class="span6">
+						<?php include 'include/formation.html'; ?>
+					</div>
+					<div class="span6 hero-unit">
+						<?php include 'include/competences.html'; ?>
+					</div>
 				</div>
 				
 				<div class="row-fluid">
 					<div class="span6 hero-unit">
-						<h3>Mon exp&eacute;rience professionnelle</h3>
-						prochainement...
+						<?php include 'include/experience.html'; ?>
 					</div>
 					<div class="span6 hero-unit">
 						<h3>Mes hobbies</h3>
