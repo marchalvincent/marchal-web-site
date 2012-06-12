@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+body{padding-top: 60px;text-align: justify;}
+.smallCols{width:70px;border-right:1px solid #DDDDDD;text-align:right;}
+.footer{border-top: 1px solid #E5E5E5;margin-top: 45px;padding: 35px 0 36px;}
+.competences{background-color: #CCCCCC;padding:10px;border-radius:10px 10px 10px 10px;line-height:40px;font-size:12px;}
+.competences b{font-size:16px;}
