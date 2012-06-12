@@ -26,7 +26,7 @@
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container">
-					<a class="brand" href="index.php">Vincent Marchal</a>
+					<a class="brand" href="">Vincent Marchal</a>
 						<div class="nav-collapse">
 							<ul class="nav">
 								<li class="active"><a href="index.php"><i class="icon-home icon-white"></i>&nbsp;Accueil</a></li>
@@ -75,8 +75,7 @@
 						<?php include 'include/experience.html'; ?>
 					</div>
 					<div class="span6 hero-unit">
-						<h3>Mes hobbies</h3>
-						prochainement...
+						<?php include 'include/hobbies.html'; ?>
 					</div>
 				</div>
 			</div>
