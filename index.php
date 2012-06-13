@@ -6,7 +6,7 @@
 		<title>Vincent Marchal - Site web</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<meta name="description" content="site web Vincent Marchal" />
+		<meta name="description" content="Le WebCV de Vincent Marchal" />
 		<meta name="author" content="Vincent MARCHAL" />
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage" />
 		<meta name="robots" content="index, follow" />
@@ -15,7 +15,7 @@
 		<!-- Le styles -->
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/perso.min.css" rel="stylesheet">
-	
+		
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
@@ -53,9 +53,9 @@
 								$diff = $diff / 31536000;
 								$diff = floor($diff);
 							?>
-							Je suis Vincent Marchal, d&eacute;veloppeur et &eacute;tudiant dans le domaine de l'informatique &agrave; l'universit&eacute; Pierre et Marie Curie.
+							Je suis Vincent Marchal, d&eacute;veloppeur &eacute;tudiant dans le domaine de l'informatique &agrave; l'universit&eacute; Pierre et Marie Curie.
 							&Agrave; <?php echo $diff; ?> ans, je cherche constamment &agrave; &eacute;largir mes comp&eacute;tences techniques tout en d&eacute;butant sur le monde du travail.<br />
-							Apr&egrave;s mes &eacute;tudes en Master informatique, je compte débuter ma carri&egrave;re en tant que d&eacute;veloppeur logiciel ou d&eacute;veloppeur web.
+							Apr&egrave;s mes &eacute;tudes en Master informatique, je compte d&eacute;buter ma carri&egrave;re en tant que d&eacute;veloppeur logiciel ou d&eacute;veloppeur web.
 						</p>
 					</div>
 					<div class="span1"></div>
@@ -79,15 +79,15 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<footer class="footer">
-	        <p class="pull-right"><a href="#">Haut de page</a></p>
-	        <p>Pour me contacter : marchal.vin [at] gmail.com</p>
-	        <p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-	        <p></p>
-	      </footer>
+				<p class="pull-right"><a href="#">Haut de page</a></p>
+				<p>Pour me contacter : marchal.vin [at] gmail.com</p>
+				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
+				<p></p>
+			</footer>
 			<!-- /content -->
-	
+			
 			<!-- Le javascript a la fin pour charger plus vite -->
 			<script src="./js/jQuery.min.js"></script>
 			<script src="./js/bootstrap.min.js"></script>
