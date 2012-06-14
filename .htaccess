@@ -9,36 +9,27 @@ FileETag none
 <IfModule mod_expires.c>
     ExpiresActive on
     ExpiresDefault "access plus 1 month"
-    ExpiresByType application/x-javascript "access plus 1 month"
-    ExpiresByType application/javascript "access plus 1 month"  
     ExpiresByType text/javascript "access plus 1 month"
     ExpiresByType text/css "access plus 1 month"
-    ExpiresByType text/html "access plus 7200 seconds" 
-    ExpiresByType image/png "access plus 1 month"   
+    ExpiresByType text/html "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
     ExpiresByType image/* "access plus 1 month"
 </IfModule>
 
 <IfModule mod_headers.c>
- 	<FilesMatch "\\.(ico|jpe?g|png|gif|swf|css|gz)$">
+ 	<FilesMatch "\\.(ico|jpe?g|png|gif|css|js)$">
  		Header set Cache-Control "max-age=2592000, public"
  	</FilesMatch>
- 	<FilesMatch "\\.(js)$"
- 		Header set Cache-Control "max-age=2592000, private"
- 	</FilesMatch>
-	<filesMatch "\\.(html|htm)$">
-		Header set Cache-Control "max-age=7200, public"
+	<filesMatch "\\.(html|htm|php)$">
+		Header set Cache-Control "max-age=2592000, public"
 	</filesMatch>
- 	#Disable caching for scripts and other dynamic files
-	<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-		Header set Cache-Control "max-age=7200, public"
-	</FilesMatch>
 </IfModule>
 
 ## Redirection vers l'accueil sauf les pdf
 RewriteEngine on
 
 RewriteCond %{REQUEST_URI} !(.*).pdf$
-RewriteRule ^(.*)$ . [NC,L]
+RewriteRule ^(.*)$ http://www.vincent-marchal.fr [NC,L]
 
 ## 404
-#Errordocument 404 http://dev.progonline.com/visitor_mypage.php?quoi=404
+Errordocument 404 http://www.vincent-marchal.fr
