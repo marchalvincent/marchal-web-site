@@ -10,11 +10,9 @@
 		<meta name="author" content="Vincent MARCHAL" />
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage" />
 		<meta name="robots" content="index, follow" />
-		<meta http-equiv="Content-Language" content="FR" />
 		
 		<!-- Le styles -->
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
-		<link href="./css/perso.min.css" rel="stylesheet">
 		
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -88,9 +86,20 @@
 			</footer>
 			<!-- /content -->
 			
-			<!-- Le javascript a la fin pour charger plus vite -->
-			<script src="./js/jQuery.min.js"></script>
-			<script src="./js/bootstrap.min.js"></script>
+			<!-- Le javascript en mode diff&eacute;r&eacute; -->
+			<script type="text/javascript">
+				function includeJS(src){
+					var script = document.createElement('script');
+					script.setAttribute('type', 'text/javascript');
+					script.setAttribute('src', src);
+					document.getElementsByTagName('head')[0].appendChild(script);
+				}
+				(window.addEventListener || window.attachEvent)(window.addEventListener ? 'load' : 'onload',function(){
+						includeJS('/js/jQuery.min.js');
+						includeJS('/js/bootstrap.min.js');
+					},true
+				);
+			</script>
 		</div>
 	</body>
 </html>
