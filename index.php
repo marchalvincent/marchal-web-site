@@ -71,6 +71,12 @@
 			<footer class="footer">
 				<p class="pull-right"><a href="#">Haut de page</a></p>
 				<p>Pour me contacter : marchal.vin [at] gmail.com</p>
+				<div class="pull-right">
+					<div onclick="location.href='https://twitter.com/marchal_vin'" class="pull-right twitter"></div>
+					<div onclick="" class="linkedin"></div>//TODO
+					<div onclick="location.href='https://plus.google.com/u/0/105717579905275905418/posts'"></div>
+				</div>
+				
 				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
 				<p></p>
 			</footer>
@@ -82,8 +88,8 @@
 					document.getElementsByTagName('head')[0].appendChild(script);
 				}
 				(window.addEventListener || window.attachEvent)(window.addEventListener ? 'load' : 'onload',function(){
-						includeJS('/js/jQuery.min.js');
-						includeJS('/js/bootstrap.min.js');
+						includeJS('./js/jQuery.min.js');
+						includeJS('./js/bootstrap.min.js');
 					},true
 				);
 			</script>

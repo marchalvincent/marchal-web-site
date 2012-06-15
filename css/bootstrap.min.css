@@ -10,6 +10,10 @@ body{padding-top: 60px;text-align: justify;}
 .experience{background-color: #EEEEEE;border-radius: 6px 6px 6px 6px;border:1px solid #BBBBBB;padding:20px;margin-top:15px;}
 .experience strong{font-size: 15px;}
 .experience dl{margin-bottom: 0px;}
+.twitter{background:url("../img/sprite.png") 0px 0px;cursor:pointer;height:35px;width:35px;border-radius:4px 4px 4px 4px;margin-left:40px;}
+.twitter:hover{background-position:0px 35px;}
+.linkedin{background:url("../img/sprite.png") 35px 0px;cursor:pointer;height:35px;width:35px;border-radius:4px 4px 4px 4px;}
+.linkedin:hover{background-position:35px 35px;}
 /*!
  * Bootstrap v2.0.3
  *

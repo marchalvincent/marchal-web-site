@@ -43,3 +43,15 @@ body {
 .experience dl {
 	margin-bottom: 0px;
 }
+
+.twitter {
+	background: url("img/sprite.png") no-repeat scroll top transparent;
+    clear: both;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.twitter:hover {
+	
+}
