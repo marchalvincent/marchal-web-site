@@ -1,3 +1,6 @@
+SetEnv PHP_VER 5_TEST
+SetEnv REGISTER_GLOBALS 0
+
 ## Desactive les cookies
 Header unset Set-Cookie
 
@@ -24,12 +27,6 @@ FileETag none
 		Header set Cache-Control "max-age=2592000, public"
 	</filesMatch>
 </IfModule>
-
-## Redirection vers l'accueil sauf les pdf
-RewriteEngine on
-
-RewriteCond %{REQUEST_URI} !(.*).pdf$
-RewriteRule ^(.*)$ http://www.vincent-marchal.fr [NC,L]
 
 ## 404
 Errordocument 404 http://www.vincent-marchal.fr
