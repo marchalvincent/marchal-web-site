@@ -30,3 +30,7 @@ FileETag none
 
 ## 404
 Errordocument 404 http://www.vincent-marchal.fr
+
+## La compression
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript

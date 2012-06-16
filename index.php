@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Le WebCV de Vincent Marchal" />
 		<meta name="author" content="Vincent MARCHAL" />
-		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage" />
+		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage, vincent, marchal" />
 		<meta name="robots" content="index, follow" />
 		
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -72,9 +72,9 @@
 				<p class="pull-right"><a href="#">Haut de page</a></p>
 				<p>Pour me contacter : marchal.vin [at] gmail.com</p>
 				<div class="pull-right">
-					<div onclick="location.href='https://twitter.com/marchal_vin'" class="pull-right twitter"></div>
-					<div onclick="" class="linkedin"></div>//TODO
-					<div onclick="location.href='https://plus.google.com/u/0/105717579905275905418/posts'"></div>
+					<a target="_BLANK" href="https://twitter.com/marchal_vin"><span class="twitter pull-right"></span></a>
+					<a target="_BLANK" href=""><span class="linkedin pull-right"></span></a>
+					<a target="_BLANK" href="https://plus.google.com/u/0/105717579905275905418/posts"><span class="googleplus"></span></a>
 				</div>
 				
 				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
