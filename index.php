@@ -73,8 +73,8 @@
 				<p>Pour me contacter : marchal.vin [at] gmail.com</p>
 				<div class="pull-right">
 					<a target="_BLANK" href="https://twitter.com/marchal_vin"><span class="twitter pull-right"></span></a>
-					<a target="_BLANK" href=""><span class="linkedin pull-right"></span></a>
-					<a target="_BLANK" href="https://plus.google.com/u/0/105717579905275905418/posts"><span class="googleplus"></span></a>
+					<a target="_BLANK" href="http://fr.linkedin.com/pub/vincent-marchal/39/616/4a0"><span class="linkedin pull-right"></span></a>
+					<a target="_BLANK" href="https://plus.google.com/105717579905275905418?prsrc=3&rel=author"><span class="googleplus pull-right"></span></a>
 				</div>
 				
 				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
