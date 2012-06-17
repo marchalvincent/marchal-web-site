@@ -8,6 +8,7 @@ body {
 .smallCols {
 	width: 70px;
 	border-right: 1px solid #DDDDDD;
+	text-align: right;
 }
 
 .footer {
@@ -19,7 +20,8 @@ body {
 .competences {
 	background-color: #CCCCCC;
 	padding: 10px;
-	border-radius: 10px 10px 10px 10px line-height:  40px;
+	border-radius: 10px 10px 10px 10px;
+	line-height: 40px;
 	font-size: 12px;
 }
 
@@ -32,7 +34,7 @@ body {
 	border-radius: 6px 6px 6px 6px;
 	border: 1px solid #BBBBBB;
 	padding: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
 }
 
 .experience strong {
@@ -53,7 +55,7 @@ body {
 }
 
 .twitter:hover {
-	background-position: 0px 35px;
+	background-position: 0px -35px;
 }
 
 .linkedin {
@@ -80,4 +82,16 @@ body {
 
 .googleplus:hover {
 	background-position: -70px -35px;
+}
+
+.photo-perso {
+	background: url("../img/sprite.png") 0px -70px;
+	height: 180px;
+	width: 180px;
+	border-radius: 5px 5px 5px 5px;
+	float: left;
+}
+
+.intro {
+	margin-left: 200px;
 }
