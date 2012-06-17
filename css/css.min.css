@@ -9,11 +9,13 @@ body{padding-top: 60px;text-align: justify;}
 .experience strong{font-size: 15px;}
 .experience dl{margin-bottom: 0px;}
 .twitter{background:url("../img/sprite.png") 0px 0px;cursor:pointer;height:35px;width:35px;border-radius:4px 4px 4px 4px;margin-left:5px;}
-.twitter:hover{background-position:0px 35px;}
+.twitter:hover{background-position:0px -35px;}
 .linkedin{background:url("../img/sprite.png") -35px 0px;cursor:pointer;height:35px;width:35px;border-radius:4px 4px 4px 4px;margin-left:5px;}
 .linkedin:hover{background-position:-35px -35px;}
 .googleplus{background:url("../img/sprite.png") -70px 0px;cursor:pointer;height:35px;width:35px;border-radius:4px 4px 4px 4px;margin-left:5px;}
 .googleplus:hover{background-position:-70px -35px;}
+.photo-perso{background:url("../img/sprite.png") 0px -70px;height:180px;width:180px;border-radius:5px 5px 5px 5px;float:left;}
+.intro{margin-left:200px;}
 /*Bootstrap v2.0.3*/
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
