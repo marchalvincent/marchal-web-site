@@ -9,7 +9,7 @@
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage, vincent, marchal" />
 		<meta name="robots" content="index, follow" />
 		
-		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<link href="./css/css.min.css" rel="stylesheet">
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
@@ -19,11 +19,11 @@
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container">
-					<a class="brand" href="">Vincent Marchal</a>
+					<a class="brand" href="http://www.vincent-marchal.fr">Vincent Marchal</a>
 						<div class="nav-collapse">
 							<ul class="nav">
-								<li class="active"><a href="index.php"><i class="icon-home icon-white"></i>&nbsp;Accueil</a></li>
-								<li><a href="CV-Vincent-MARCHAL.pdf">CV</a></li>
+								<li class="active"><a href="http://www.vincent-marchal.fr"><i class="icon-home icon-white"></i>&nbsp;Accueil</a></li>
+								<li><a href="http://www.vincent-marchal.fr/CV-Vincent-MARCHAL.pdf">CV</a></li>
 							</ul>
 						</div>
 					</div>
@@ -81,15 +81,11 @@
 				<p></p>
 			</footer>
 			<script type="text/javascript">
-				function includeJS(src){
+				(window.addEventListener || window.attachEvent)(window.addEventListener ? 'load' : 'onload',function(){
 					var script = document.createElement('script');
 					script.setAttribute('type', 'text/javascript');
-					script.setAttribute('src', src);
+					script.setAttribute('src', './js/js.min.js');
 					document.getElementsByTagName('head')[0].appendChild(script);
-				}
-				(window.addEventListener || window.attachEvent)(window.addEventListener ? 'load' : 'onload',function(){
-						includeJS('./js/jQuery.min.js');
-						includeJS('./js/bootstrap.min.js');
 					},true
 				);
 			</script>

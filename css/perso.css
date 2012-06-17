@@ -19,8 +19,7 @@ body {
 .competences {
 	background-color: #CCCCCC;
 	padding: 10px;
-	border-radius: 10px 10px 10px 10px
-	line-height: 40px;
+	border-radius: 10px 10px 10px 10px line-height:  40px;
 	font-size: 12px;
 }
 
@@ -30,10 +29,10 @@ body {
 
 .experience {
 	background-color: #EEEEEE;
-    border-radius: 6px 6px 6px 6px;
-    border:1px solid #BBBBBB;
-    padding:20px;
-    margin-bottom:20px;
+	border-radius: 6px 6px 6px 6px;
+	border: 1px solid #BBBBBB;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .experience strong {
@@ -45,13 +44,40 @@ body {
 }
 
 .twitter {
-	background: url("img/sprite.png") no-repeat scroll top transparent;
-    clear: both;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
+	background: url("../img/sprite.png") 0px 0px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	border-radius: 4px 4px 4px 4px;
+	margin-left: 5px;
 }
 
 .twitter:hover {
-	
+	background-position: 0px 35px;
+}
+
+.linkedin {
+	background: url("../img/sprite.png") -35px 0px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	border-radius: 4px 4px 4px 4px;
+	margin-left: 5px;
+}
+
+.linkedin:hover {
+	background-position: -35px -35px;
+}
+
+.googleplus {
+	background: url("../img/sprite.png") -70px 0px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	border-radius: 4px 4px 4px 4px;
+	margin-left: 5px;
+}
+
+.googleplus:hover {
+	background-position: -70px -35px;
 }
