@@ -1,0 +1,36 @@
+SetEnv PHP_VER 5_TEST
+SetEnv REGISTER_GLOBALS 0
+
+## Desactive les cookies
+Header unset Set-Cookie
+
+## Desactive les Etag
+Header unset ETag
+FileETag none
+
+## Contrôle du cache navigateur - Expire headers
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/html "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/* "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+ 	<FilesMatch "\\.(ico|jpe?g|png|gif|css|js)$">
+ 		Header set Cache-Control "max-age=2592000, public"
+ 	</FilesMatch>
+	<filesMatch "\\.(html|htm|php)$">
+		Header set Cache-Control "max-age=2592000, public"
+	</filesMatch>
+</IfModule>
+
+## 404
+Errordocument 404 http://www.vincent-marchal.fr
+
+## La compression
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
