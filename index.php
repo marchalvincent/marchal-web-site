@@ -4,7 +4,7 @@
 		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 		<title>Vincent Marchal - Site web</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Bienvenu sur le WebCV de Vincent Marchal" />
+		<meta name="description" content="Bienvenu sur le Web CV de Vincent Marchal" />
 		<meta name="author" content="Vincent MARCHAL" />
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage, vincent, marchal" />
 		<meta name="robots" content="index, follow" />
