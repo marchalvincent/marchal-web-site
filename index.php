@@ -3,6 +3,7 @@
 	<head>
 		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 		<title>Vincent Marchal - Site web</title>
+		<link rel="icon" type="image/png" href="icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Bienvenu sur le Web CV de Vincent Marchal" />
 		<meta name="author" content="Vincent MARCHAL" />
@@ -77,7 +78,7 @@
 				<div class="pull-right">
 					<a target="_BLANK" href="https://twitter.com/marchal_vin"><span class="twitter pull-right"></span></a>
 					<a target="_BLANK" href="http://fr.linkedin.com/pub/vincent-marchal/39/616/4a0"><span class="linkedin pull-right"></span></a>
-					<a target="_BLANK" href="https://plus.google.com/105717579905275905418?prsrc=3&rel=author"><span class="googleplus pull-right"></span></a>
+					<a target="_BLANK" href="https://plus.google.com/105717579905275905418?prsrc=3&amp;rel=author"><span class="googleplus pull-right"></span></a>
 				</div>
 				
 				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>

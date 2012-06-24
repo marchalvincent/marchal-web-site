@@ -5,7 +5,7 @@
 		<li><a data-toggle="tab" href="#developpement">Programmation</a></li>
 		<li><a data-toggle="tab" href="#musique">Musique</a></li>
 	</ul>
-	<div class="tab-content" id="myTabContent">
+	<div class="tab-content">
 		<div id="sport" class="tab-pane fade active in">
 			Le sport est tr&egrave;s important pour moi. Depuis l'&acirc;ge de 6 ans j'ai d&eacute;couvert diverses 
 			disciplines sportives, individuelles mais aussi collectives :
