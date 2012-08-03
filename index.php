@@ -5,7 +5,7 @@
 		<title>Vincent Marchal - Site web</title>
 		<link rel="icon" type="image/png" href="icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Bienvenue sur le Web CV de Vincent Marchal" />
+		<meta name="description" content="Site web de Vincent Marchal" />
 		<meta name="author" content="Vincent MARCHAL" />
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage, vincent, marchal" />
 		<meta name="robots" content="index, follow" />
@@ -15,12 +15,13 @@
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
 	<body>
+		<div id="fb-root"></div>
 		<div class="container">
 			<!-- Barre top -->
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container">
-					<a class="brand" href="http://www.vincent-marchal.fr">Vincent Marchal</a>
+					<a class="brand" href="http://www.vincent-marchal.fr"><strong>Vincent Marchal</strong></a>
 						<div class="nav-collapse">
 							<ul class="nav">
 								<li class="active"><a href="http://www.vincent-marchal.fr">&nbsp;Accueil</a></li>
@@ -32,12 +33,18 @@
 			</div>
 			<!-- content -->
 			<div class="container-fluid">
+				<!-- Social -->
+				<div class="row-fluid">
+					<div class="span1"></div>
+					<div class="span10 social"><?php include_once './include/social_network.php'; ?></div>
+					<div class="span1"></div>
+				</div>
 				<div class="row-fluid">
 					<div class="span1"></div>
 					<div class="span10 hero-unit">
-						<h2>Bienvenue sur ma page personnelle !</h2>
+						<h1 class="couleur">Vincent <span class="bleu">Marchal</span></h1>
 						<p></p>
-						<p class="photo-perso"></p>
+						<img class="photo-perso" width="180" height="180" alt="C'est moi, Vincent Marchal !" src="./img/Vincent-Marchal.jpg"/>
 						<p class="intro">
 							<?php
 							$secondesNaissance = mktime(15, 15, 0, 12, 11, 1991);
@@ -47,7 +54,7 @@
 							$diff = $diff / 31536000;
 							$diff = floor($diff);
 							?>
-							Je suis Vincent Marchal, d&eacute;veloppeur &eacute;tudiant dans le domaine de l'informatique &agrave; l'universit&eacute; Pierre et Marie Curie (UPMC).
+							Bienvenue sur ma page personnelle, je suis d&eacute;veloppeur &eacute;tudiant dans le domaine de l'informatique &agrave; l'universit&eacute; Pierre et Marie Curie (UPMC).
 							&Agrave; <?php echo $diff; ?> ans, je cherche constamment &agrave; &eacute;largir mes comp&eacute;tences techniques tout en d&eacute;butant sur le monde du travail.<br><br>
 							Apr&egrave;s mes &eacute;tudes en Master informatique, je compte d&eacute;buter ma carri&egrave;re en tant que d&eacute;veloppeur logiciel ou d&eacute;veloppeur web.
 						</p>
@@ -82,10 +89,15 @@
 				</div>
 				
 				<p>Ce site a &eacute;t&eacute; cod&eacute; par moi m&ecirc;me &agrave; l'aide de l'outil <a target="_BLANK" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-				<p></p>
+				<p>Vous pouvez &eacute;galement t&eacute;l&eacute;charger mon CV ici : <a href='http://www.vincent-marchal.fr/CV-Vincent-MARCHAL.pdf'>Vincent Marchal</a>.</p>
 			</footer>
 			<script type="text/javascript">
-				(window.addEventListener || window.attachEvent)(window.addEventListener ? 'load' : 'onload',function(){
+				(window.addEventListener || window.attachEvent)(window.addEventListener ?'load':'onload',function(){
+					var script2 = document.createElement('script');
+					script2.setAttribute('type', 'text/javascript');
+					script2.setAttribute('src', '//platform.linkedin.com/in.js');
+					document.getElementsByTagName('head')[0].appendChild(script2);
+					
 					var script = document.createElement('script');
 					script.setAttribute('type', 'text/javascript');
 					script.setAttribute('src', './js/js.min.js');

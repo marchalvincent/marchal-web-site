@@ -35,7 +35,7 @@
 			Il m'arrive souvent de programmer en plus de mes &eacute;tudes et de mon activit&eacute; professionnelle.
 			Par exemple, en ce moment, je me remet dans l'apprentissage du langage de programmation C que j'ai d&eacute;couvert 
 			il y a <?php echo $diff; ?> ans.<br><br>
-			J'ai &eacute;galement trouv&eacute; int&eacute;ressant de me faire un webCV sur lequel vous &ecirc;tes actuellement.
+			J'ai &eacute;galement trouv&eacute; int&eacute;ressant de me faire un site web que vous visitez actuellement.
 			
 		</div>
 		<div id ="musique" class="tab-pane fade">
