@@ -8,7 +8,7 @@ Header unset Set-Cookie
 Header unset ETag
 FileETag none
 
-## Contrôle du cache navigateur - Expire headers
+## Controle du cache navigateur - Expire headers
 <IfModule mod_expires.c>
     ExpiresActive on
     ExpiresDefault "access plus 1 month"
