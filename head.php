@@ -1,6 +1,6 @@
 <?php 
-// define('HOME', 'http://www.vincent-marchal.fr/');
-define('HOME', 'http://localhost/marchal-web-site/');
+define('HOME', 'http://www.vincent-marchal.fr/');
+// define('HOME', 'http://localhost/marchal-web-site/');
 ?>
 <!DOCTYPE html>
 	<html lang="fr">
