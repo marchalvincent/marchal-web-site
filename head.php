@@ -1,7 +1,7 @@
 <?php 
-define('HOME', 'http://www.vincent-marchal.fr/');
+// define('HOME', 'http://www.vincent-marchal.fr/');
 // define('HOME', 'http://localhost/marchal-web-site/');
-// define('HOME', 'http://localhost:8888/marchal-web-site/');
+define('HOME', 'http://localhost:8888/marchal-web-site/');
 ?>
 <!DOCTYPE html>
 	<html lang="fr">
@@ -10,7 +10,7 @@ define('HOME', 'http://www.vincent-marchal.fr/');
 		<title>Vincent Marchal - Site web</title>
 		<link rel="icon" type="image/png" href="icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Site web de Vincent Marchal" />
+		<meta name="description" content="Bienvenue sur le site web de Vincent Marchal. Apprenez-en plus sur moi que sur un simple CV !" />
 		<meta name="author" content="Vincent MARCHAL" />
 		<meta name="keywords" lang="fr" content="d&eacute;veloppeur, informatique, web, php, java, site, cv, alternance, stage, vincent, marchal" />
 		<meta name="robots" content="index, follow" />

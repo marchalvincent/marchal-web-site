@@ -2,6 +2,7 @@
 		<!-- La description breve -->
 		<div id="formation" class="span9 hero-unit menuLien">
 			<h1>Ma formation</h1>
+			<div>Ma licence et mon master ont &eacute;t&eacute; faits &agrave; l'Universit&eacute; Pierre et Marie Curie.<br><br></div>
 			<table class="table tabFormation">
 				<tr onclick="show('master2')">
 					<td class="smallCols">2013-2014</td>
