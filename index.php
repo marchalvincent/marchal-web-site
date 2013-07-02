@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
-		<div id="propos" class="span9 hero-unit menuLien">
-			<h1>Vincent Marchal</h1>
-			<img class="photo-perso img-rounded" width="180" height="180" alt="C'est moi, Vincent Marchal !" src="<?php echo HOME; ?>img/Vincent-Marchal.jpg"/>
+		<div id="propos" class="span9 hero-unit menuLien" itemscope itemtype="http://data-vocabulary.org/Person">
+			<h1><span itemprop="name">Vincent Marchal</span></h1>
+			<img itemprop="photo" class="photo-perso img-rounded" width="180" height="180" alt="C'est moi, Vincent Marchal !" src="<?php echo HOME; ?>img/Vincent-Marchal.jpg"/>
 			<p>
 				<?php
 				$secondesNaissance = mktime(15, 15, 0, 12, 11, 1991);
@@ -11,8 +11,9 @@
 				$diff = $diff / 31536000;
 				$diff = floor($diff);
 				?>
-				Bienvenue sur ma page personnelle, je suis d&eacute;veloppeur &eacute;tudiant dans le domaine de <span class='valeur'>l'informatique</span> &agrave; l'universit&eacute; Pierre et 
-				Marie Curie (UPMC). &Agrave; <?php echo $diff; ?> ans, je cherche constamment &agrave; &eacute;largir mes comp&eacute;tences techniques tout en d&eacute;butant sur le monde du travail.
+				Bienvenue sur ma page personnelle, je suis <span itemprop="title">d&eacute;veloppeur</span> &eacute;tudiant dans le domaine de <span class='valeur'>l'informatique</span> &agrave; 
+				l'<span itemprop="affiliation">Universit&eacute; Pierre et Marie Curie (UPMC)</span>. &Agrave; <?php echo $diff; ?> ans, je cherche constamment &agrave; &eacute;largir mes 
+				comp&eacute;tences techniques tout en d&eacute;butant sur le monde du travail.
 			</p>
 			<p>
 				Apr&egrave;s mes &eacute;tudes en <span class='valeur'>Master informatique</span>, je compte d&eacute;buter ma carri&egrave;re en tant que d&eacute;veloppeur logiciel/web. 
