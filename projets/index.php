@@ -25,7 +25,18 @@
 									<dt>Particularit&eacute;</dt>
 									<dd>Utilise un algorithme bas&eacute; sur la g&eacute;n&eacute;tique.</dd>
 									<dt>Description</dt>
-									<dd>Projet en cours... </dd>
+									<dd>
+										De nombreux projets et outils manipulant les diagrammes d'activit&eacute;s commencent &agrave; voir le jour (un exemple avec le projet ci-dessous : Process Analyzer). 
+										Le probl&egrave;me est que le d&eacute;veloppeur est amen&eacute; &agrave; n&eacute;gliger la phase de test car la cr&eacute;ation de diagrammes d'activit&eacute;s est plut&ocirc;t 
+										longue et p&eacute;nible.<br><br>
+										Le but de ce projet &eacute;tait de permettre la g&eacute;n&eacute;ration automatique de tels documents. Ainsi, g&eacute;n&eacute;rer un diagramme avec une centaine d'activit&eacute;s
+										ne prend d&eacute;sormais que quelques secondes. Ce g&eacute;n&eacute;rateur se base sur la mutation g&eacute;n&eacute;tique pour faire &eacute;voluer un diagramme qui au d&eacute;part est le 
+										plus basique qu'il soit afin de respecter les contraintes sp&eacute;cifi&eacute;es par l'utilisateur (taille, structure, etc.). Cela garanti que le diagramme g&eacute;n&eacute;r&eacute; est 
+										unique et cr&eacute;&eacute; de mani&egrave;re objective.<br><br>
+										Les librairies Java utilis&eacute;es sont <a href="http://watchmaker.uncommons.org">Watchmaker Framework</a> offrant une base solide pour l'algorithme g&eacute;n&eacute;tique et 
+										<a href="http://jung.sourceforge.net">Jung</a> simplifiant le parcours de graphes. Les contraintes structurelles d&eacute;finies par l'utilisateur sont repr&eacute;sent&eacute;es par des 
+										<a href="http://www.workflowpatterns.com">workflows patterns</a>. Les diagrammes peuvent être g&eacute;n&eacute;r&eacute;s sous les standards BPMN2.0 ou UML2.0.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -44,16 +55,16 @@
 									<dt>Taille</dt>
 									<dd>~5700 lignes de codes, 95 classes.</dd>
 									<dt>R&eacute;alis&eacute; en</dt>
-									<dd>binôme.</dd>
+									<dd>bin&ocirc;me.</dd>
 									<dt>Particularit&eacute;</dt>
 									<dd>Utilise un <i>model checker</i>.</dd>
 									<dt>Description</dt>
 									<dd>
-										Ce projet a &eacute;t&eacute; r&eacute;alis&eacute; durant ma première ann&eacute;e de master. Son objectif &eacute;tait de fournir un outil 
+										Ce projet a &eacute;t&eacute; r&eacute;alis&eacute; durant ma premi&egrave;re ann&eacute;e de master. Son objectif &eacute;tait de fournir un outil 
 										permettant de v&eacute;rifier des contraintes structurelles et comportementales sur un ou plusieurs diagrammes d'activit&eacute;s repr&eacute;sent&eacute;s 
 										par le standard UML2.0.<br><br>
 										Nous avons utilis&eacute; l'outil Alloy du MIT (Massachusetts Institue of Technology). Il nous offre &agrave; la fois un langage qui nous permet de 
-										d&eacute;crire les contraintes et les diagrammes &agrave; v&eacute;rifier, mais aussi un <i>model checker</i> nous permettant de valider ou non le diagramme selon une contrainte.<br><br>
+										d&eacute;crire les contraintes et les diagrammes &agrave; v&eacute;rifier, mais aussi un <i>model checker</i> nous permettant de valider ou non le diagramme selon ces contrainte.<br><br>
 										Notre travail &agrave; &eacute;t&eacute; d'automatiser les traitements ant&eacute;rieurs et post&eacute;rieurs &agrave; la validation du <i>model checker</i> d'Alloy, &agrave; savoir :
 										<ul>
 											<li>Traduction des diagrammes et contraintes structurelles/comportementales en langage Alloy ;</li>
@@ -80,7 +91,7 @@
 									<dt>Taille</dt>
 									<dd>~3200 lignes Java. ~2300 lignes C.</dd>
 									<dt>R&eacute;alis&eacute; en</dt>
-									<dd>binôme.</dd>
+									<dd>bin&ocirc;me.</dd>
 									<dt>Particularit&eacute;</dt>
 									<dd>Architecture client/serveur. Le client est cod&eacute; en Java, le serveur en C. Les deux parties communiquent via le r&eacute;seau internet.</dd>
 									<dt>Description</dt>
